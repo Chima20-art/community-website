@@ -10,7 +10,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/S">jksc</Route>
+          <Route path="/services">jksc</Route>
           <Route path="/products">products</Route>
         </Switch>
       </div>

@@ -23,7 +23,7 @@ export default function Navbar() {
 
         <div className={styles.menu}>
           <div className={styles.buttons}>
-            <Link to="/S">
+            <Link to="/services">
               {" "}
               <div className={styles.item}>Services</div>
             </Link>

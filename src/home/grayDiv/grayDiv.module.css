@@ -1,16 +1,21 @@
+.s {
+  background-color: #eeecec;
+}
 .container {
+  max-width: 1400px;
   display: flex;
   flex-direction: row;
-  background-color: #f7f7f7;
+  margin: auto;
 }
 .desk {
   flex: 1;
-  margin: 0px 40px;
 }
 
 .deskImg {
   object-fit: contain;
   max-width: 453px;
+  margin-top: 60px;
+  margin-bottom: 80px;
 }
 .text {
   flex: 1;
