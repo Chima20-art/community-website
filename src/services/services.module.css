@@ -1,0 +1,72 @@
+.container {
+  height: 100%;
+}
+
+.quote {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  text-align: center;
+
+  color: #263238;
+  padding: 74px 0px;
+}
+.color {
+  color: red;
+  font-weight: bold;
+}
+.border {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+.grayBackground {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.ourService {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1126px;
+  height: 776px;
+  padding-top: 100px;
+}
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: #1f2e35;
+}
+.paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444e;
+  width: 500px;
+  height: 650px;
+  margin-top: 80px;
+  margin-right: 10px;
+}
+.chatImage {
+  display: flex;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 80px;
+  margin-left: 10px;
+  height: 549px;
+  left: 577px;
+  margin: auto;
+}
