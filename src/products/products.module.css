@@ -1,0 +1,19 @@
+.redDiv {
+  background-color: #ee4248;
+  height: 327px;
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  width: 745px;
+  height: 192px;
+  color: white;
+}
+.grayDiv {
+  background-color: #f6f6f6;
+  height: 36px;
+}
