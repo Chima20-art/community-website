@@ -5,6 +5,7 @@ import Home from "./home/home";
 import Services from "./services/services";
 import Annex from "./annex/annex";
 import Product from "./products/products";
+import Technology from "./technology/technology";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/services" component={Services} />
           <Route path="/product" component={Product} />
+          <Route path="/technology" component={Technology} />
         </Switch>
         <Annex />
       </div>

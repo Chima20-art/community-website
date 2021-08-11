@@ -1,0 +1,15 @@
+.backgroundDiv {
+  padding-top: 30px;
+}
+.redBackground {
+  position: absolute;
+
+  left: 0px;
+  top: 0px;
+}
+.grayBackround {
+  position: absolute;
+
+  left: 0px;
+  top: 60px;
+}

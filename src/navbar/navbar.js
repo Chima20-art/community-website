@@ -35,8 +35,12 @@ export default function Navbar(props) {
             <Link to="/product">
               <div className={styles.item}>Product</div>
             </Link>
-
-            <div className={styles.item}> Technology</div>
+            <Link
+              to="/technolog
+            "
+            >
+              <div className={styles.item}>Technology</div>
+            </Link>
             <div className={styles.dropDown}>
               <div className={styles.dropDownItem}>
                 <div>About</div>
