@@ -18,3 +18,39 @@
   color: #30444e;
   margin-right: 0px;
 }
+.paragraph {
+  text-align: start;
+  margin-top: 58px;
+  margin-left: 160px;
+  margin-right: 135px;
+}
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140.69%;
+  color: #263238;
+}
+.line {
+  margin-bottom: 46px;
+}
+.text {
+  width: 1145px;
+  height: 475px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140.69%;
+  text-align: justify;
+}
+.redFont {
+  color: red;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140.69%;
+}
