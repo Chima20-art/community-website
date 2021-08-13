@@ -6,7 +6,7 @@ import Services from "./services/services";
 import Annex from "./annex/annex";
 import Product from "./products/products";
 import Technology from "./technology/technology";
-
+import About from "./About/about";
 function App() {
   return (
     <Router>
@@ -17,6 +17,7 @@ function App() {
           <Route path="/services" component={Services} />
           <Route path="/product" component={Product} />
           <Route path="/technology" component={Technology} />
+          <Route path="/aboutUs" component={About} />
         </Switch>
         <Annex />
       </div>

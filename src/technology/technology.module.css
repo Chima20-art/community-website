@@ -1,0 +1,7 @@
+.backgroundDiv {
+  background-color: blue;
+  position: relative;
+}
+.text {
+  position: absolute;
+}

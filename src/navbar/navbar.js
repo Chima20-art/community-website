@@ -46,8 +46,12 @@ export default function Navbar(props) {
                 </div>
               </div>
               <div className={styles.popup}>
-                <div className={styles.div}>link1</div>
-                <div className={styles.div}>link2</div>
+                <Link to="/aboutUs">
+                  <div className={styles.div}>link1</div>
+                </Link>
+                <Link to="/team">
+                  <div className={styles.div}>link2</div>
+                </Link>
               </div>
             </div>
             <div className={styles.dropDown}>
