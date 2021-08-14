@@ -72,6 +72,73 @@ export default function aboutUs() {
           </p>
         </div>
       </div>
+      <div className={styles.futurePrespective}>
+        <div className={styles.videoImage}>
+          <img src="/col-md-8.png" />
+        </div>
+        <div className={styles.ourFutureParagraph}>
+          <div className={styles.ourFutureTitle}>
+            Our Future Prespective
+            <img src="/Line 2.png" className={styles.line2} />
+          </div>
+          <div className={styles.vision}>
+            <div className={styles.visionLogo}>
+              <img src="/icn settings .icn-md.png" />
+            </div>
+
+            <div className={styles.visionText}>
+              <div className={styles.visionTitle}>Vision</div>
+              <div className={styles.Text}>
+                To become the leading application service provider (ASP)
+                focusing on front-end application delivered for Indonesia’s
+                banking and fi nancial industry.
+              </div>
+            </div>
+          </div>
+          <div className={styles.mission}>
+            <div className={styles.visionLogo}>
+              <img src="/clock.png" />
+            </div>
+
+            <div className={styles.visionText}>
+              <div className={styles.visionTitle}>Mission</div>
+              <div className={styles.Text}>
+                To become the leading application service provider (ASP)
+                focusing on front-end application delivered for Indonesia’s
+                banking and fi nancial industry.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.dsiCulture}>
+        <div className={styles.cultureParagraph}>
+          <div className={styles.cultureTitle}>
+            DSI Culture
+            <img src="/Line 2-2.png" className={styles.line22} />
+          </div>
+          <div className={styles.cultureText}>
+            <p>
+              Our commitment to innovation depends on everyone being comfortable
+              sharing ideas and opinions. Every employee is a hands-on
+              contributor, and everyone wears several hats. Because we believe
+              that each DSI employee is an equally important part of our
+              success.
+            </p>
+            <p>
+              We deeply understand that the average working person spends at
+              least eight hours or even more, so we spend one third even half of
+              our lives to work in a day. therefore we strive to provide a fun
+              and positive environment in addition to a wide range of benefits
+              to provide safety so they can enjoy working at Dwidasa Samsara
+              Indonesia.
+            </p>
+          </div>
+        </div>
+        <div className={styles.cultureVideo}>
+          <img src="/col-md-8-2.png" />
+        </div>
+      </div>
     </div>
   );
 }

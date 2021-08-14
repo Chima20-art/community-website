@@ -33,7 +33,7 @@
   color: #263238;
 }
 .line {
-  margin-bottom: 46px;
+  margin-bottom: 40px;
 }
 .text {
   width: 1145px;
@@ -53,4 +53,111 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 140.69%;
+}
+.futurePrespective {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(242, 242, 242, 0.65);
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.videoImage {
+  margin-right: 98px;
+}
+.ourFutureParagraph {
+  display: flex;
+  flex-direction: column;
+  width: 472px;
+  height: 410px;
+}
+.ourFutureTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.line2 {
+  width: 88px;
+  height: 10px;
+}
+.vision {
+  display: flex;
+  margin: 30px 0px;
+}
+.visionText {
+  width: 438px;
+  height: 112px;
+  text-align: start;
+  margin-left: 20px;
+}
+.visionTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+  letter-spacing: 0.1px;
+
+  color: #263238;
+}
+.Text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #263238;
+  margin: 16px 0px;
+}
+.mission {
+  display: flex;
+}
+.cultureTitle {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140.69%;
+  color: #ffffff;
+}
+.line22 {
+  width: 88px;
+  height: 10px;
+}
+.dsiCulture {
+  background-color: #ee4248;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 48px 0px;
+}
+.cultureParagraph {
+  width: 471px;
+  text-align: start;
+  color: white;
+  margin-right: 98px;
+}
+.cultureText {
+  width: 471px;
+  height: 300px;
+  left: 153px;
+  top: 151px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140.69%;
+
+  text-align: justify;
 }
