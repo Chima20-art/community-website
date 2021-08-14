@@ -139,6 +139,50 @@ export default function aboutUs() {
           <img src="/col-md-8-2.png" />
         </div>
       </div>
+      <div className={styles.whiteDiv}>
+        <div className={styles.contactTitle}>
+          Contact Us
+          <img src="/Line 3.png" className={styles.line3} />
+        </div>
+        <div className={styles.mapDiv}>
+          <div className={styles.map}>
+            <img src="/@ map screen.png" />
+          </div>
+          <div className={styles.mapText}>
+            <div className={styles.smallDiv}>
+              <div className={styles.smallLogo}>
+                <img src="/Group 1323.png" />
+              </div>
+              <div className={styles.descriptionLogo}>
+                <div className={styles.titleLogo}>Alamat</div>
+                <div className={styles.textLogo}>
+                  Jl. Halim Perdana Kusuma, Ring Road Bangkalan, Madura, Jawa
+                  Timur.
+                </div>
+              </div>
+            </div>
+            <div className={styles.smallDiv}>
+              <div className={styles.smallLogo}>
+                <img src="/Group 1319.png" />
+              </div>
+              <div className={styles.descriptionLogo}>
+                <div className={styles.titleLogo}>Email</div>
+                <div className={styles.textLogo}>sekolahku@sch.id</div>
+              </div>
+            </div>
+            <div className={styles.smallDiv}>
+              <div className={styles.smallLogo}>
+                <img src="/Group 1321.png" />
+              </div>
+              <div className={styles.descriptionLogo}>
+                <div className={styles.titleLogo}>Telepon</div>
+                <div className={styles.textLogo}>(031) 3092223</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div />
+      </div>
     </div>
   );
 }
