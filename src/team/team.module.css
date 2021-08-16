@@ -31,3 +31,53 @@
 
   background: #ee4248;
 }
+.manajmenTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 140.69%;
+  color: #263238;
+}
+.vector {
+  object-fit: contain;
+}
+.media {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.cardItem {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 230px;
+  height: 284px;
+}
+.cardTitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ee4248;
+  margin-top: 7px;
+}
+.name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.picture {
+  margin-top: 30px;
+}
