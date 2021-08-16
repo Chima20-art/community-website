@@ -19,7 +19,7 @@ export default function Team() {
           Manajemen
           <img src="/Line 1.png" className={styles.vector} />
         </div>
-        <div className={styles.cardItems}>
+        <div className={styles.cardItems1}>
           <div className={styles.cardItem} style={{ marginRight: "100px" }}>
             <div>
               <img src="/circle-box.png" className={styles.picture} />
