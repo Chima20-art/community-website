@@ -31,8 +31,7 @@
   background: #ee4248;
 }
 .clientLineUpDiv {
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 25px;
 }
 .Title {
   display: flex;
@@ -53,6 +52,9 @@
 }
 .clientCard {
   background-color: #f7f7f7;
+  display: flex;
+}
+.bprCard {
   display: flex;
 }
 .bankLogo {

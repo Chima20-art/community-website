@@ -48,6 +48,83 @@ export default function Client() {
           </div>
         </div>
       </div>
+      <div className={styles.bprCard}>
+        <div className={styles.bankLogo}>
+          <img src="/image 16.png" className={styles.bankLogo} />
+        </div>
+        <div className={styles.description}>
+          <div className={styles.cardTitle}>Bank Tabungan Negara</div>
+          <div className={styles.paragraph}>
+            <div className={styles.subtitle}>Mobile Banking :</div>
+            <div className={styles.text + " " + styles.margin}>
+              This project provides delivery channel application over mobile
+              device for customer to perform banking and financial transactions,
+              such as inquiry balance, overbook, purchase, and payment. Using:
+              JAVA technologies, PostgreSQL, Android technologies, iOS
+              technologies, Blackberry technologies
+            </div>
+          </div>
+          <div className={styles.paragraph}>
+            <div className={styles.subtitle}>Soft Token :</div>
+            <div className={styles.text + " " + styles.margin}>
+              This project provides delivery channel application over mobile
+              device for customer to perform banking and financial transactions,
+              such as inquiry balance, overbook, purchase, and payment. Using:
+              JAVA technologies, PostgreSQL, Android technologies, iOS
+              technologies, Blackberry technologies
+            </div>
+          </div>
+          <div className={styles.paragraph}>
+            <div className={styles.subtitle}>Internet Banking :</div>
+            <div className={styles.text + " " + styles.margin}>
+              This project provides delivery channel application over mobile
+              device for customer to perform banking and financial transactions,
+              such as inquiry balance, overbook, purchase, and payment. Using:
+              JAVA technologies, PostgreSQL, Android technologies, iOS
+              technologies, Blackberry technologies
+            </div>
+          </div>
+          <div className={styles.paragraph}>
+            <div className={styles.subtitle}>KIOSK :</div>
+            <div className={styles.text + " " + styles.margin}>
+              This project provides delivery channel application over mobile
+              device for customer to perform banking and financial transactions,
+              such as inquiry balance, overbook, purchase, and payment. Using:
+              JAVA technologies, PostgreSQL, Android technologies, iOS
+              technologies, Blackberry technologies
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.clientCard}>
+        <div className={styles.bankLogo}>
+          <img src="/image 18.png" className={styles.bankLogo} />
+        </div>
+        <div className={styles.description}>
+          <div className={styles.cardTitle}>Bank BPR KS</div>
+          <div className={styles.paragraph}>
+            <div className={styles.subtitle}>Mobile Banking :</div>
+            <div className={styles.text + " " + styles.margin}>
+              This project provides delivery channel application over mobile
+              device for customer to perform banking and financial transactions,
+              such as inquiry balance, overbook, purchase, and payment. Using:
+              JAVA technologies, PostgreSQL, Android technologies, iOS
+              technologies, Blackberry technologies
+            </div>
+          </div>
+          <div className={styles.paragraph}>
+            <div className={styles.subtitle}>Soft Token :</div>
+            <div className={styles.text + " " + styles.margin}>
+              This project provides delivery channel application over mobile
+              device for customer to perform banking and financial transactions,
+              such as inquiry balance, overbook, purchase, and payment. Using:
+              JAVA technologies, PostgreSQL, Android technologies, iOS
+              technologies, Blackberry technologies
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
