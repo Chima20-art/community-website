@@ -3,7 +3,6 @@
   display: flex;
 }
 .title {
-  background-color: blueviolet;
   margin: auto;
   justify-content: center;
   font-family: Roboto;
@@ -17,7 +16,6 @@
   color: #30444e;
 }
 .image {
-  background-color: brown;
   object-fit: contain;
   margin-bottom: 0px;
   padding-right: 0px;
