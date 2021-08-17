@@ -4,6 +4,7 @@ import styles from "./team.module.css";
 export default function Team() {
   return (
     <div className={styles.container}>
+      {" "}
       <div className={styles.mainDiv}>
         <div className={styles.title}>
           Alone is a vision
@@ -170,7 +171,6 @@ export default function Team() {
           </div>
         </div>
       </div>
-
       <div className={styles.javaDiv}>
         <div className={styles.consultantTitle}>
           Java Specialist

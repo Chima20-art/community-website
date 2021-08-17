@@ -54,18 +54,12 @@ export default function Navbar(props) {
                 </Link>
               </div>
             </div>
-            <div className={styles.dropDown}>
-              <div className={styles.dropDownItem}>
+            <Link to="/client">
+              <div className={styles.item}>
                 <div>Client</div>
-                <div>
-                  <img className={styles.chevron} src="/chevron_down.png"></img>
-                </div>
               </div>
-              <div className={styles.popup}>
-                <div className={styles.div}>link 3</div>
-                <div className={styles.div}>link 4</div>
-              </div>
-            </div>
+            </Link>
+
             <div className={styles.item}> Partner</div>
           </div>
           <div className={styles.media}>
@@ -112,7 +106,7 @@ export default function Navbar(props) {
             onClick={() => setShowClientMenu(!showClientMenu)}
           >
             <div className={styles.dropDownItemMenu}>
-              <div>Client</div>
+              <div>Clientguklghlu</div>
               <div>
                 <img className={styles.chevron} src="/chevron_down.png"></img>
               </div>
