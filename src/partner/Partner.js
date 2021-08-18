@@ -22,6 +22,43 @@ export default function Partner() {
 
         <img src="/Group-2.png" className={styles.group2} />
       </div>
+      <div className={styles.partnersLineUpDiv}>
+        <div className={styles.Title}>
+          Client Line-Up
+          <img src="/Line 1.png" className={styles.vector} />
+        </div>
+        <div className={styles.partnersCards}>
+          <img src="/Side Shape.svg" />
+          <div className={styles.partnersCard}>
+            <img src="/image 19.png" className={styles.cardLogo} />
+            <div className={styles.cardDescription}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui quis
+              volutpat venenatis bibendum hendrerit pulvinar. Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Dui quis volutpat venenatis
+              bibendum hendrerit pulvinar.
+            </div>
+          </div>
+          <div className={styles.partnersCard}>
+            <img src="/image 20.png" className={styles.cardLogo} />
+            <div className={styles.cardDescription}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui quis
+              volutpat venenatis bibendum hendrerit pulvinar. Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Dui quis volutpat venenatis
+              bibendum hendrerit pulvinar.
+            </div>
+          </div>
+          <div className={styles.partnersCard}>
+            <img src="/image 21.png" className={styles.cardLogo3} />
+            <div className={styles.cardDescription}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui quis
+              volutpat venenatis bibendum hendrerit pulvinar. Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit. Dui quis volutpat venenatis
+              bibendum hendrerit pulvinar.
+            </div>
+          </div>
+          <img src="/Side Shape Circle.svg" />
+        </div>
+      </div>
     </div>
   );
 }

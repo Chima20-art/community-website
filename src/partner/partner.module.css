@@ -87,4 +87,6 @@
   color: #263238;
 }
 .partnersCards {
+  display: flex;
+  justify-content: space-between;
 }
