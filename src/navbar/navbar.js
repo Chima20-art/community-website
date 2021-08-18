@@ -59,8 +59,9 @@ export default function Navbar(props) {
                 <div>Client</div>
               </div>
             </Link>
-
-            <div className={styles.item}> Partner</div>
+            <Link to="partner">
+              <div className={styles.item}> Partner</div>
+            </Link>
           </div>
           <div className={styles.media}>
             <div>
@@ -120,6 +121,7 @@ export default function Navbar(props) {
             </div>
           </div>
           <div className={styles.menuItem}>Partner</div>
+
           <div className={styles.menuItem}>
             <div className={styles.contactItemMenu}>
               <div>

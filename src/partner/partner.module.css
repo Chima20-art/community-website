@@ -1,0 +1,45 @@
+.mainDiv {
+  background-color: #f9f9f9;
+  height: 474px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.group {
+  position: relative;
+  object-fit: contain;
+  margin-bottom: 0px;
+  align-self: flex-start;
+}
+.group2 {
+  object-fit: contain;
+  position: relative;
+  align-self: flex-end;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.firstDiv {
+  margin-bottom: 40px;
+  margin-top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 140.69%;
+  text-align: center;
+  color: #263238;
+}
+.secondDiv {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 140.69%;
+  text-align: center;
+  color: #455a64;
+  margin-bottom: 0px;
+}

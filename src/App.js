@@ -9,6 +9,7 @@ import Technology from "./technology/technology";
 import About from "./About/about";
 import Team from "./team/Team";
 import Client from "./clientDiv/client";
+import Partner from "./partner/Partner";
 function App() {
   return (
     <Router>
@@ -22,6 +23,7 @@ function App() {
           <Route path="/aboutUs" component={About} />
           <Route path="/team" component={Team} />
           <Route path="/client" component={Client} />
+          <Route path="/partner" component={Partner} />
         </Switch>
         <Annex />
       </div>
