@@ -5,6 +5,9 @@
 .background {
   position: relative;
 }
+.mainDiv {
+  margin-bottom: 90px;
+}
 .text {
   position: absolute;
   top: 171px;
@@ -44,4 +47,14 @@
 .macbookPic {
   object-fit: contain;
   margin-top: 58px;
+  margin-bottom: 31px;
+}
+.logos {
+  display: flex;
+  margin-left: 277px;
+  margin-right: 277px;
+  justify-content: space-between;
+}
+.logo {
+  object-fit: contain;
 }

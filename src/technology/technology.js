@@ -17,6 +17,13 @@ export default function technology() {
           <img src="/@ Macbook Pro.png" className={styles.macbookPic} />
         </div>
       </div>
+      <div className={styles.logos}>
+        <img src="/java-2.png" className={styles.logo} />
+        <img src="/Group 1318.png" className={styles.logo} />
+        <img src="/css_3.svg" className={styles.logo} />
+        <img src="/html_5.png" className={styles.logo} />
+        <img src="/microsoft.png" className={styles.logo} />
+      </div>
     </div>
   );
 }
