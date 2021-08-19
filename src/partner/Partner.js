@@ -59,6 +59,12 @@ export default function Partner() {
           <img src="/Side Shape Circle.svg" />
         </div>
       </div>
+      <div className={styles.testimonalDiv}>
+        <div className={styles.Title}>
+          Client Line-Up
+          <img src="/Line 1.png" className={styles.vector} />
+        </div>
+      </div>
     </div>
   );
 }
