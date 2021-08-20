@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./client.module.css";
-
+import SimpleSlider from "../slider/slider";
 export default function Client() {
   return (
     <div className={styles.container}>
@@ -125,6 +125,13 @@ export default function Client() {
           </div>
         </div>
       </div>
+      <div className={styles.testimonalDiv}>
+        <div className={styles.Title}>
+          Client Line-Up
+          <img src="/Line 1.png" className={styles.vector} />
+        </div>
+      </div>
+      <SimpleSlider />
     </div>
   );
 }
