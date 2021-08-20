@@ -1,3 +1,34 @@
 .section {
+  width: 100%;
   display: flex;
+  justify-content: space-around;
+}
+.description {
+  width: 540px;
+
+  text-align: left;
+}
+.quote {
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+.paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  color: #373f41;
+}
+.signature {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: #30444e;
+  margin-top: 27px;
+  margin-bottom: 16px;
 }

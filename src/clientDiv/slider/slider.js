@@ -7,23 +7,39 @@ const SimpleSlider = () => (
   <Carousel plugins={["arrows"]}>
     <div className={styles.section}>
       <img src="/Mark.png" />
-      <div>
-        <img src="/quote icon.png" />
-        <p>
+      <div className={styles.description}>
+        <img src="/quote icon.png" className={styles.quote} />
+        <p className={styles.paragraph}>
           Est tation latine aliquip id, mea ad tale illud definitiones.
           Periculis omittantur necessitatibus eum ad, pro eripuit minimum
           comprehensam ne, usu cu stet prompta reformidans.
         </p>
-        <p>Connie Robertson at Google</p>
+        <p className={styles.signature}>Connie Robertson at Google</p>
       </div>
     </div>
     <div className={styles.section}>
       <img src="/Mark.png" />
-      <div>hkghjgkjghk</div>
+      <div className={styles.description}>
+        <img src="/quote icon.png" className={styles.quote} />
+        <p className={styles.paragraph}>
+          Est tation latine aliquip id, mea ad tale illud definitiones.
+          Periculis omittantur necessitatibus eum ad, pro eripuit minimum
+          comprehensam ne, usu cu stet prompta reformidans.
+        </p>
+        <p className={styles.signature}>Connie Robertson at Google</p>
+      </div>
     </div>
     <div className={styles.section}>
       <img src="/Mark.png" />
-      <div>hkghjgkjghk</div>
+      <div className={styles.description}>
+        <img src="/quote icon.png" className={styles.quote} />
+        <p className={styles.paragraph}>
+          Est tation latine aliquip id, mea ad tale illud definitiones.
+          Periculis omittantur necessitatibus eum ad, pro eripuit minimum
+          comprehensam ne, usu cu stet prompta reformidans.
+        </p>
+        <p className={styles.signature}>Connie Robertson at Google</p>
+      </div>
     </div>
   </Carousel>
 );
