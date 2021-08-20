@@ -11,7 +11,14 @@ body {
   text-align: center;
   margin: auto;
 }
-
+.BrainhubCarousel__arrows span {
+  border-color: red !important;
+  border-width: 4px 4px 0 0 !important ;
+  padding: 10px !important ;
+}
+.BrainhubCarousel__arrows {
+  background-color: white !important;
+}
 * {
   padding: 0px;
   margin: 0px;
