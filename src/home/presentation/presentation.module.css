@@ -2,7 +2,7 @@
   margin: auto;
   width: 1125px;
   margin-top: 51px;
-  margin-bottom: 100px;
+  margin-bottom: 97px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -63,6 +63,7 @@
   cursor: pointer;
 }
 .presentationText {
+  width: 545px;
   margin: auto;
 }
 
