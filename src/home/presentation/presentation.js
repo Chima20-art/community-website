@@ -17,7 +17,7 @@ export default function presentation() {
         <div className={styles.button}> Read More</div>
       </div>
       <div className={styles.presentationImage}>
-        <img className={styles.media} src="/pana.png" />
+        <img className={styles.media} src="/pana1.png" />
       </div>
     </div>
   );
