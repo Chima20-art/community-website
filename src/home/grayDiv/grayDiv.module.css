@@ -18,6 +18,8 @@
   margin-bottom: 80px;
 }
 .text {
+  font-family: "Roboto", sans-serif;
+
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -31,6 +33,7 @@
   margin-bottom: 24px;
 }
 .black {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -40,6 +43,7 @@
   text-align: left;
 }
 .red {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -47,6 +51,7 @@
   color: #ee4248;
 }
 .redTitle {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
