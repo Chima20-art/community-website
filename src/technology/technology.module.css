@@ -4,6 +4,7 @@
 }
 .background {
   position: relative;
+  z-index: -1;
 }
 .mainDiv {
   margin-bottom: 90px;
