@@ -1,6 +1,11 @@
 .container {
-  width: 100%;
   height: 100%;
+  width: 1400px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .quote {
@@ -19,17 +24,18 @@
 }
 .border {
   position: absolute;
-  width: 100vw;
+  width: 1400px;
   z-index: -1;
-  left: 0px;
   margin-top: 40px;
   margin-bottom: 200px;
 }
 .grayBackground {
-  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1400px;
   position: absolute;
   z-index: -1;
-  left: 0px;
 }
 .ourService {
   display: flex;
