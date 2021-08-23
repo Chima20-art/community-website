@@ -74,6 +74,9 @@ export default function Navbar(props) {
               <img className={styles.shuffle} src="/shuffle.png"></img>
             </div>
           </div>
+          <div className={styles.menuImage}>
+            <img src="/text_align_right.png" />
+          </div>
         </div>
       </div>
       {showMobileMenu && (
