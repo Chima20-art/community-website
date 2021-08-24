@@ -4,7 +4,7 @@ import styles from "./navBar.module.css";
 import { useState } from "react";
 
 export default function Navbar(props) {
-  const { showMobileMenu, setShowMobileMenu } = props;
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
   const [showAboutMenu, setShowAboutMenu] = useState(false);
   const [showClientMenu, setShowClientMenu] = useState(false);
   const [showServices, setShowServices] = useState(false);
@@ -74,9 +74,12 @@ export default function Navbar(props) {
               <img className={styles.shuffle} src="/shuffle.png"></img>
             </div>
           </div>
-          <div className={styles.menuImage}>
-            <img src="/text_align_right.png" />
-          </div>
+        </div>
+        <div
+          className={styles.menuImage}
+          onClick={() => setShowMobileMenu(!showMobileMenu)}
+        >
+          <img src="/text_align_right.png" />
         </div>
       </div>
       {showMobileMenu && (

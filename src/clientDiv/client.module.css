@@ -47,6 +47,7 @@
 }
 .vector {
   object-fit: contain;
+  margin: auto;
 }
 .clientCard {
   background-color: #f7f7f7;

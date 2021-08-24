@@ -59,6 +59,7 @@
 }
 .vector {
   object-fit: contain;
+  margin: auto;
 }
 .partnersCard {
   display: flex;
