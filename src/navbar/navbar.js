@@ -5,17 +5,21 @@ import { useState } from "react";
 
 export default function Navbar(props) {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
-  const [showAboutMenu, setShowAboutMenu] = useState(false);
+  const [showAboutMenu, setShowAboutMenu] = useState(true);
   const [showClientMenu, setShowClientMenu] = useState(false);
   const [showServices, setShowServices] = useState(false);
   return (
     <nav className={styles.container}>
       <div className={styles.navBar}>
-        <div>
+        <div
+          onClick={() => {
+            setShowMobileMenu(false);
+          }}
+        >
           <Link to="/">
             <div className={styles.logo}>
               <div className={styles.image}>
-                <img src="DSI.png"></img>
+                <img src="DSI.png" />
               </div>
               <div className={styles.description}>
                 <div className={styles.text1}>DWIDASA</div>
@@ -84,27 +88,52 @@ export default function Navbar(props) {
       </div>
       {showMobileMenu && (
         <div className={styles.menuItems}>
-          <div className={styles.menuItem}>Services</div>
-          <div className={styles.menuItem}>Products</div>
-          <div className={styles.menuItem}>Technology</div>
-          <div
-            className={styles.menuItem}
-            onClick={() => setShowAboutMenu(!showAboutMenu)}
-          >
-            {" "}
-            <div className={styles.dropDownItemMenu}>
+          <Link to="/services">
+            <div
+              className={styles.menuItem}
+              onClick={() => setShowMobileMenu(false)}
+            >
+              Services
+            </div>
+          </Link>
+          <Link to="/product">
+            <div
+              className={styles.menuItem}
+              onClick={() => setShowMobileMenu(false)}
+            >
+              Products
+            </div>
+          </Link>
+          <Link to="/technology">
+            <div
+              className={styles.menuItem}
+              onClick={() => setShowMobileMenu(false)}
+            >
+              Technology
+            </div>
+          </Link>
+
+          <div className={styles.menuItem}>
+            <div
+              className={styles.dropDownItemMenu}
+              onClick={() => {
+                setShowAboutMenu(!showAboutMenu);
+                alert("ss");
+              }}
+            >
               <div>About</div>
               <div>
-                <img className={styles.chevron} src="/chevron_down.png"></img>
+                <img className={styles.chevron} src="/chevron_down.png" />
               </div>
             </div>
             <div
               className={styles.smallMenu}
               style={{
                 display: showAboutMenu ? "unset" : "none",
+                backgroundColor: "red",
               }}
             >
-              <div className={styles.smallMenuItem}>link 3</div>
+              <div className={styles.smallMenuItem}>Contact Us</div>
               <div className={styles.smallMenuItem}>link 4</div>
             </div>
           </div>
