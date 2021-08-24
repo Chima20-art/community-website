@@ -28,8 +28,11 @@ export default function Annex() {
           <img className={styles.logo} src="/dotNet.png" />
           <img className={styles.logoX} src="/java.png" />
           <img className={styles.logo} src="/ios.png" />
-          <img className={styles.logo} src="/android.png" />
-          <img className={styles.logoX} src="/blackBerry.png" />
+          <img className={styles.logoA} src="/android.png" />
+          <img
+            className={`${styles.logoM} ${styles.logoA}`}
+            src="/blackBerry.png"
+          />
         </div>
       </div>
       <div className={styles.footer}>
