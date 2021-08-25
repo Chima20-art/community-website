@@ -122,19 +122,15 @@
   .ourService {
     display: flex;
     flex-direction: column-reverse;
-
     display: flex;
     justify-content: start;
-
-    margin: auto;
     width: 100vw;
     height: unset;
-    padding-top: 100px;
+    padding-top: unset;
   }
-  .chatImage {
+  .chatImage1 {
     width: 100vw;
-    width: 373.99px;
-    height: 374px;
+    max-width: 385.99px;
     display: unset;
     object-fit: contain;
   }
@@ -156,7 +152,6 @@
     max-width: 357px;
     margin: 25px;
     height: unset;
-    background-color: violet;
     text-align: start;
     margin-bottom: 40px;
   }

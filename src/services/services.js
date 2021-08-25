@@ -48,7 +48,7 @@ export default function services() {
         </div>
 
         <div className={styles.chatImage}>
-          <img src="/pana.png" className={styles.chatImage} />
+          <img src="/pana.png" className={styles.chatImage1} />
         </div>
       </div>
     </div>
