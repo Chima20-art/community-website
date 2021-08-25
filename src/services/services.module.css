@@ -1,5 +1,4 @@
 .container {
-  height: 100%;
   width: 1400px;
 }
 .header {
@@ -79,4 +78,85 @@
   height: 549px;
   left: 577px;
   margin: auto;
+}
+@media (max-width: 1000px) {
+  .container {
+    width: 100vw;
+    margin: 0px;
+  }
+  .border {
+    display: none;
+  }
+  .grayBackground {
+    display: none;
+  }
+  .grayBackgroundMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+  }
+  .quote {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 133.69%;
+    width: 300px;
+    height: 192px;
+    text-align: center;
+    padding: unset;
+    color: #263238;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  .color {
+    color: red;
+    font-weight: bold;
+    width: 300px;
+  }
+  .ourService {
+    display: flex;
+    flex-direction: column-reverse;
+
+    display: flex;
+    justify-content: start;
+
+    margin: auto;
+    width: 100vw;
+    height: unset;
+    padding-top: 100px;
+  }
+  .chatImage {
+    width: 100vw;
+
+    display: unset;
+    object-fit: contain;
+  }
+
+  .title {
+    margin: 25px;
+    text-align: start;
+  }
+  .titleLine {
+    margin-left: 0px;
+  }
+  .paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444e;
+    max-width: 357px;
+    margin: 25px;
+    height: unset;
+    background-color: violet;
+    text-align: start;
+    margin-bottom: 40px;
+  }
 }
