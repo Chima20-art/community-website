@@ -133,7 +133,8 @@
   }
   .chatImage {
     width: 100vw;
-
+    width: 373.99px;
+    height: 374px;
     display: unset;
     object-fit: contain;
   }
