@@ -102,6 +102,7 @@
     width: 100vw;
     position: absolute;
     z-index: -1;
+    height: 351px;
   }
   .quote {
     font-family: Roboto;
@@ -120,19 +121,17 @@
     margin-top: 15px;
   }
   .color {
-    color: red;
     font-weight: bold;
     width: 300px;
   }
   .ourService {
-    background-color: violet;
     display: flex;
     flex-direction: column-reverse;
     display: flex;
     justify-content: start;
     width: 100vw;
     height: unset;
-    padding-top: unset;
+    padding-top: 110px;
     margin: 0px;
   }
   .chatImage1 {
@@ -140,6 +139,17 @@
     max-width: 385.99px;
     display: unset;
     object-fit: contain;
+    margin: 0px;
+    padding: 0px;
+  }
+  .chatImage {
+    display: flex;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    height: 549px;
+    left: 577px;
   }
 
   .title {
