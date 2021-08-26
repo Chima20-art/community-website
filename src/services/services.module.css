@@ -79,6 +79,9 @@
   left: 577px;
   margin: auto;
 }
+.grayBackgroundMobile {
+  display: none;
+}
 @media (max-width: 1000px) {
   .container {
     width: 100vw;
@@ -120,6 +123,7 @@
     width: 300px;
   }
   .ourService {
+    background-color: violet;
     display: flex;
     flex-direction: column-reverse;
     display: flex;
@@ -127,6 +131,7 @@
     width: 100vw;
     height: unset;
     padding-top: unset;
+    margin: 0px;
   }
   .chatImage1 {
     width: 100vw;
