@@ -40,14 +40,16 @@
 .ourService {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
   width: 1126px;
-  height: 776px;
-  padding-top: 100px;
+
+  padding-top: 200px;
+}
+.title {
+  text-align: start;
+  margin-bottom: 26px;
 }
 .text {
   font-family: Roboto;
@@ -56,6 +58,8 @@
   font-size: 32px;
   line-height: 133.69%;
   color: #1f2e35;
+
+  text-align: justify;
 }
 .paragraph {
   font-family: Roboto;
@@ -65,9 +69,8 @@
   line-height: 150%;
   color: #30444e;
   width: 500px;
-  height: 650px;
-  margin-top: 80px;
-  margin-right: 10px;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 .chatImage {
   display: flex;
@@ -77,7 +80,6 @@
   margin-left: 10px;
   height: 549px;
   left: 577px;
-  margin: auto;
 }
 .grayBackgroundMobile {
   display: none;
