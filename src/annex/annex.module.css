@@ -86,6 +86,14 @@
   color: white;
   text-align: center;
 }
+.logoA {
+  display: unset;
+  object-fit: contain;
+}
+.logoM {
+  object-fit: contain;
+  margin-left: 16px;
+}
 @media (max-width: 1100px) {
   .container {
     width: 100vw;
@@ -135,18 +143,16 @@
   }
   .logo {
     display: unset;
-
     object-fit: contain;
-
     padding: 0px;
   }
   .logoA {
     display: unset;
     margin-top: 10px;
+    object-fit: contain;
   }
   .logoNet {
     object-fit: contain;
-
     margin-right: unset;
   }
   .logoM {
