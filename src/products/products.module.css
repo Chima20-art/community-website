@@ -1,4 +1,9 @@
+.container {
+  width: 1400px;
+}
+
 .redDiv {
+  width: 1400px;
   background-color: #ee4248;
   height: 327px;
   display: flex;
@@ -20,21 +25,30 @@
   height: 36px;
 }
 .productParagraph {
-  margin: auto;
   margin-top: 63px;
   margin-bottom: 27px;
   display: flex;
   flex-direction: row;
   height: 530px;
-  width: 1130px;
   display: flex;
-  justify-content: center;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
 }
 .ourProductTitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.text {
+  text-align: start;
 }
 .paragraph {
   height: 358px;
@@ -46,15 +60,25 @@
   line-height: 150%;
   color: #30444e;
 }
+.paragraph1 {
+  margin-bottom: 30px;
+}
 .computer {
   margin: auto;
   margin-left: 51px;
   height: 338px;
   width: 575px;
 }
+.lineImage {
+  object-fit: contain;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100px;
+}
 @media (max-width: 1000px) {
   .title {
-    background-color: violet;
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
@@ -64,11 +88,28 @@
     color: white;
     text-align: center;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .redDiv {
     min-height: 327px;
+  }
+  .paragraph {
+    height: 358px;
+    width: 500px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444e;
+  }
+  .paragraph1 {
+    height: 358px;
+    width: 500px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444e;
   }
 }
