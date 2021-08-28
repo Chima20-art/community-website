@@ -10,8 +10,8 @@ export default function technology() {
         <img src="/Group 1327.png" className={styles.backgroundMobile} />
         <div className={styles.text}>
           <p className={styles.divTitle}>
-            “Knowledge” some way of future <br /> up-to-date in latest
-            technology
+            “Knowledge” some way of future <br />{" "}
+            <b> up-to-date in latest technology </b>
           </p>
           <div className={styles.button}>learn More</div>
           <img src="/@ Macbook Pro.png" className={styles.macbookPic} />

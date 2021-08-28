@@ -113,12 +113,13 @@
   }
   .moileMacbookPic {
     display: unset;
+    margin-top: 41px;
   }
   .divTitle {
     position: relative;
-    background-color: blue;
+
     margin: auto;
-    display: flex;
+
     justify-content: center;
     font-family: Roboto;
     font-style: normal;
@@ -126,6 +127,7 @@
     font-size: 36px;
     line-height: 140.69%;
     margin-bottom: 24px;
+    margin-top: 67px important!;
     max-width: 380px;
   }
   .button {
