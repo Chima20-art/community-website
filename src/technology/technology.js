@@ -7,7 +7,7 @@ export default function technology() {
     <div className={styles.container}>
       <div className={styles.mainDiv}>
         <img src="/Group 1331-2.png" className={styles.background} />
-
+        <img src="/Group 1327.png" className={styles.backgroundMobile} />
         <div className={styles.text}>
           <p className={styles.divTitle}>
             “Knowledge” some way of future <br /> up-to-date in latest

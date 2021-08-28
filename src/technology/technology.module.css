@@ -13,9 +13,7 @@
   position: absolute;
   top: 171px;
   width: 1440px;
-
   text-align: center;
-
   color: #ffffff;
 }
 .divTitle {
@@ -92,8 +90,11 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 140.69%;
-  /* or 25px */
   text-align: justify;
-
   color: #263238;
+}
+@media (max-width: 1000px) {
+  .background {
+    display: none;
+  }
 }
