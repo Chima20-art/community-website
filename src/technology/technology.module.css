@@ -100,6 +100,10 @@
   display: none;
 }
 @media (max-width: 1000px) {
+  .container {
+    width: 100%;
+    width: 100vw;
+  }
   .background {
     display: none;
   }
@@ -114,6 +118,13 @@
   .moileMacbookPic {
     display: unset;
     margin-top: 41px;
+  }
+  .text {
+    position: absolute;
+    top: 171px;
+    width: 100vw;
+    text-align: center;
+    color: #ffffff;
   }
   .divTitle {
     position: relative;
@@ -132,5 +143,12 @@
   }
   .button {
     display: none;
+  }
+  .logos {
+    display: flex;
+    margin-left: 36px;
+    margin-right: 36px;
+    justify-content: space-between;
+    margin-top: 175px;
   }
 }
