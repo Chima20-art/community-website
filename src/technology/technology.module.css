@@ -93,8 +93,39 @@
   text-align: justify;
   color: #263238;
 }
+.moileMacbookPic {
+  display: none;
+}
+.backgroundMobile {
+  display: none;
+}
 @media (max-width: 1000px) {
   .background {
     display: none;
+  }
+  .macbookPic {
+    display: none;
+  }
+  .backgroundMobile {
+    display: unset;
+    margin: auto;
+    margin-left: 40px;
+  }
+  .moileMacbookPic {
+    display: unset;
+  }
+  .divTitle {
+    position: relative;
+    background-color: blue;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 140.69%;
+    margin-bottom: 24px;
+    max-width: 380px;
   }
 }

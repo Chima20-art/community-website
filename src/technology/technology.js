@@ -15,6 +15,7 @@ export default function technology() {
           </p>
           <div className={styles.button}>learn More</div>
           <img src="/@ Macbook Pro.png" className={styles.macbookPic} />
+          <img src="/@ Macbook Pro-2.png" className={styles.moileMacbookPic} />
         </div>
       </div>
       <div className={styles.logos}>
