@@ -140,7 +140,12 @@ export default function Navbar(props) {
                 </div>
               </Link>
               <Link to="/team">
-                <div className={styles.smallMenuItem}>link 4</div>
+                <div
+                  className={styles.smallMenuItem}
+                  onClick={() => setShowMobileMenu(false)}
+                >
+                  link 4
+                </div>
               </Link>
             </div>
           </div>
