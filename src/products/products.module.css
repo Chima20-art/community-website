@@ -107,7 +107,6 @@
     width: 100vw !important;
   }
   .flex {
-    background-color: cadetblue;
     width: 100vw;
     display: flex;
     flex-direction: column-reverse;
@@ -117,7 +116,6 @@
   .paragraph {
     width: 100vw;
 
-    background-color: chartreuse;
     height: unset;
     font-family: Roboto;
     font-style: normal;
@@ -148,5 +146,6 @@
     object-fit: contain;
     width: 343px;
     height: 201.74px;
+    margin-bottom: 38px;
   }
 }
