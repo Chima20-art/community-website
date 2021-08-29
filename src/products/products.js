@@ -10,7 +10,7 @@ export default function Product() {
           <b> work hand-in-hand with qualified people</b>
         </div>
       </div>
-      <div className={styles.grayDiv}></div>
+      <div className={styles.grayDiv} />
       <div className={styles.productParagraph}>
         <div className={styles.flex}>
           <div className={styles.text}>
@@ -27,7 +27,7 @@ export default function Product() {
                 Banking; transaction based banking such as EDC Banking; and
                 other financial platforms such as Personal Investment Portfolio.
               </p>
-              <p>
+              <p className={styles.paragraph1}>
                 Our product and service range will technically safeguard your
                 business operations through continued application development.
                 It is all topped with our integrated procedure made in
@@ -39,7 +39,7 @@ export default function Product() {
           </div>
           <img src="/computer.png" className={styles.computer} />
         </div>
-        <img src="/Line 1-2.png" className={styles.lineImage} />
+        <img src="/Line 1-2.png" className={styles.lineImage2} />
       </div>
     </div>
   );
