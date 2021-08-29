@@ -118,7 +118,6 @@ export default function Navbar(props) {
               className={styles.dropDownItemMenu}
               onClick={() => {
                 setShowAboutMenu(!showAboutMenu);
-                alert("ss");
               }}
             >
               <div>About</div>
@@ -130,11 +129,19 @@ export default function Navbar(props) {
               className={styles.smallMenu}
               style={{
                 display: showAboutMenu ? "unset" : "none",
-                backgroundColor: "red",
               }}
             >
-              <div className={styles.smallMenuItem}>Contact Us</div>
-              <div className={styles.smallMenuItem}>link 4</div>
+              <Link to="/aboutUs">
+                <div
+                  className={styles.smallMenuItem}
+                  onClick={() => setShowMobileMenu(false)}
+                >
+                  Contact Us
+                </div>
+              </Link>
+              <Link to="/team">
+                <div className={styles.smallMenuItem}>link 4</div>
+              </Link>
             </div>
           </div>
           <div
