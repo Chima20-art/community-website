@@ -105,15 +105,16 @@
     width: 100vw;
   }
   .background {
-    display: none;
+    display: unset;
+    width: 100vw;
+    min-height: 406px;
   }
   .macbookPic {
     display: none;
   }
   .backgroundMobile {
-    display: unset;
+    display: none;
     margin: auto;
-    margin-left: 40px;
   }
   .moileMacbookPic {
     display: unset;
@@ -150,5 +151,23 @@
     margin-right: 36px;
     justify-content: space-between;
     margin-top: 175px;
+  }
+  .technologyText {
+    margin-top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140.69%;
+    text-align: justify;
+    color: #263238;
+  }
+  .ourTechnologyDiv {
+    margin: 30px;
+  }
+  .logo {
+    object-fit: contain;
+    width: 34.78px;
+    height: 46.37px;
   }
 }
