@@ -226,3 +226,32 @@
   text-align: center;
   text-align: start;
 }
+@media (max-width: 1000px) {
+  .about {
+    width: 100vw;
+  }
+  .grayDiv {
+    min-height: 368px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 133.69%;
+    color: #30444e;
+    margin-right: 0px;
+  }
+  .logo {
+    width: 235px;
+    height: 103px;
+  }
+}

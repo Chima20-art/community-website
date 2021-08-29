@@ -14,8 +14,8 @@ export default function aboutUs() {
             <br /> improvement and innovation
           </b>
         </div>
-        <div classname={styles.logo}>
-          <img src="/logo.png" />
+        <div>
+          <img src="/logo.png" className={styles.logo} />
         </div>
       </div>
       <div className={styles.paragraph}>
