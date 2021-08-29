@@ -144,29 +144,19 @@ export default function Navbar(props) {
                   className={styles.smallMenuItem}
                   onClick={() => setShowMobileMenu(false)}
                 >
-                  link 4
+                  team
                 </div>
               </Link>
             </div>
           </div>
-          <div
-            className={styles.menuItem}
-            onClick={() => setShowClientMenu(!showClientMenu)}
-          >
-            <div className={styles.dropDownItemMenu}>
-              <div>Clientguklghlu</div>
-              <div>
-                <img className={styles.chevron} src="/chevron_down.png"></img>
-              </div>
-            </div>
+          <Link to="/client">
             <div
-              className={styles.popup}
-              style={{ display: showClientMenu ? "unset" : "none" }}
+              className={styles.menuItem}
+              onClick={() => setShowMobileMenu(false)}
             >
-              <div className={styles.div}>link 3</div>
-              <div className={styles.div}>link 4</div>
+              <div>Client</div>
             </div>
-          </div>
+          </Link>
           <div className={styles.menuItem}>Partner</div>
 
           <div className={styles.menuItem}>
