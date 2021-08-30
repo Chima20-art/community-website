@@ -125,7 +125,7 @@ export default function aboutUs() {
             <img src="/Line 2-2.png" className={styles.line22} />
           </div>
           <div className={styles.cultureText}>
-            <p>
+            <p className={styles.cultureParagraph1}>
               Our commitment to innovation depends on everyone being comfortable
               sharing ideas and opinions. Every employee is a hands-on
               contributor, and everyone wears several hats. Because we believe

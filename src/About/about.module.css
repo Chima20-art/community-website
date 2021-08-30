@@ -369,12 +369,20 @@
     padding: 48px 0px;
     width: 100vw;
   }
+  .cultureTitle {
+    margin-bottom: 34px;
+  }
   .cultureParagraph {
-    width: 471px;
+    display: unset;
     text-align: start;
     color: white;
     margin-right: unset;
     margin: auto;
+    margin-bottom: 32px;
+    height: unset;
+    min-width: 470px;
+  }
+  .cultureParagraph1 {
     margin-bottom: 32px;
   }
   .cultureText {
