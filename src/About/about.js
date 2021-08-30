@@ -73,6 +73,10 @@ export default function aboutUs() {
         </div>
       </div>
       <div className={styles.futurePrespective}>
+        <div className={styles.ourFutureTitleMobile}>
+          Our Future Prespective
+          <img src="/Line 2.png" className={styles.line2} />
+        </div>
         <div className={styles.videoImage}>
           <img src="/col-md-8.png" />
         </div>

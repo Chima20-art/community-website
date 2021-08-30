@@ -84,6 +84,19 @@
   flex-direction: column;
   text-align: start;
 }
+.ourFutureTitleMobile {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  display: none;
+}
 .line2 {
   width: 88px;
   height: 10px;
@@ -253,5 +266,93 @@
   .logo {
     width: 235px;
     height: 103px;
+  }
+  .paragraph {
+    margin: 25px;
+    background-color: brown;
+    width: unset;
+    height: unset;
+    text-align: start;
+    margin-top: 58px;
+  }
+  .title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 140.69%;
+    color: #263238;
+  }
+  .line {
+    margin-bottom: 40px;
+  }
+  .text {
+    background-color: tomato;
+    width: unset;
+    height: unset;
+    margin-left: unset;
+    margin-right: unset;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140.69%;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 44px;
+  }
+  .ourFutureParagraph {
+    display: flex;
+    flex-direction: column;
+    min-width: 347px;
+    height: unset;
+    margin: auto;
+  }
+  .ourFutureTitleMobile {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    width: 332px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .line2 {
+    width: 88px;
+    height: 10px;
+  }
+  .ourFutureTitle {
+    display: none;
+  }
+  .futurePrespective {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(242, 242, 242, 0.65);
+    justify-content: center;
+    margin-bottom: 48px;
+    padding: 74px 0px;
+  }
+  .videoImage {
+    margin-right: unset;
+    margin: auto;
+    margin-bottom: 34px;
+  }
+  .Text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #263238;
+    margin: 16px 0px;
+    text-align: justify;
   }
 }
