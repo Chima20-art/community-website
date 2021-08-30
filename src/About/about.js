@@ -78,7 +78,7 @@ export default function aboutUs() {
           <img src="/Line 2.png" className={styles.line2} />
         </div>
         <div className={styles.videoImage}>
-          <img src="/col-md-8.png" />
+          <img src="/col-md-8.png" className={styles.ourFutureVideoImage} />
         </div>
         <div className={styles.ourFutureParagraph}>
           <div className={styles.ourFutureTitle}>
@@ -87,7 +87,10 @@ export default function aboutUs() {
           </div>
           <div className={styles.vision}>
             <div className={styles.visionLogo}>
-              <img src="/icn settings .icn-md.png" />
+              <img
+                src="/icn settings .icn-md.png"
+                className={styles.visionLogo}
+              />
             </div>
 
             <div className={styles.visionText}>
@@ -140,7 +143,7 @@ export default function aboutUs() {
           </div>
         </div>
         <div className={styles.cultureVideo}>
-          <img src="/col-md-8-2.png" />
+          <img src="/col-md-8-2.png" className={styles.cultureVideoPic} />
         </div>
       </div>
       <div className={styles.whiteDiv}>

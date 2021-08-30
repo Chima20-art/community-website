@@ -249,6 +249,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px;
   }
   .description {
     text-align: center;
@@ -261,15 +262,17 @@
     font-size: 32px;
     line-height: 133.69%;
     color: #30444e;
+    width: 100vw;
     margin-right: 0px;
+    margin-left: 0px;
   }
   .logo {
     width: 235px;
     height: 103px;
+    margin-top: 25px;
   }
   .paragraph {
     margin: 25px;
-    background-color: brown;
     width: unset;
     height: unset;
     text-align: start;
@@ -287,7 +290,6 @@
     margin-bottom: 40px;
   }
   .text {
-    background-color: tomato;
     width: unset;
     height: unset;
     margin-left: unset;
@@ -354,5 +356,38 @@
     color: #263238;
     margin: 16px 0px;
     text-align: justify;
+  }
+  .ourFutureVideoImage {
+    width: 347px;
+    height: 256px;
+  }
+  .dsiCulture {
+    background-color: #ee4248;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px 0px;
+    width: 100vw;
+  }
+  .cultureParagraph {
+    width: 471px;
+    text-align: start;
+    color: white;
+    margin-right: unset;
+    margin: auto;
+    margin-bottom: 32px;
+  }
+  .cultureText {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140.69%;
+
+    text-align: justify;
+  }
+  .cultureVideoPic {
+    width: 339px;
+    height: 223px;
   }
 }
