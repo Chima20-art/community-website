@@ -132,7 +132,7 @@ export default function aboutUs() {
               that each DSI employee is an equally important part of our
               success.
             </p>
-            <p>
+            <p className={styles.cultureParagraph1}>
               We deeply understand that the average working person spends at
               least eight hours or even more, so we spend one third even half of
               our lives to work in a day. therefore we strive to provide a fun
