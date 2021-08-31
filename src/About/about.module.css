@@ -398,4 +398,50 @@
     width: 339px;
     height: 223px;
   }
+  .mapDiv {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+    justify-content: space-around;
+  }
+  .map {
+    background-color: blue;
+    width: 342px;
+    height: 239.22px;
+  }
+  .smallDiv {
+    display: flex;
+  }
+  .smallLogo {
+    margin: auto;
+  }
+  .descriptionLogo {
+    margin-left: 37px;
+    height: 100%;
+  }
+  .mapText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .titleLogo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 46px;
+    color: #1f2e35;
+    text-align: start;
+  }
+  .textLogo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    width: 354px;
+    color: #30444e;
+    text-align: center;
+  }
 }

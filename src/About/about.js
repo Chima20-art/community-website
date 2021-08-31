@@ -152,9 +152,8 @@ export default function aboutUs() {
           <img src="/Line 3.png" className={styles.line3} />
         </div>
         <div className={styles.mapDiv}>
-          <div className={styles.map}>
-            <img src="/@ map screen.png" />
-          </div>
+          <img src="/@ map screen.png" className={styles.map} />
+
           <div className={styles.mapText}>
             <div className={styles.smallDiv}>
               <div className={styles.smallLogo}>
