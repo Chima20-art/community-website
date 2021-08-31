@@ -102,12 +102,6 @@
   height: 10px;
 }
 .vision {
-  width: 347px;
-  display: flex;
-  margin: 30px 0px;
-}
-.mission {
-  width: 347px;
   display: flex;
   margin: 30px 0px;
 }
@@ -349,6 +343,22 @@
     margin-right: unset;
     margin: auto;
     margin-bottom: 34px;
+  }
+  .visionText {
+    height: unset;
+    text-align: start;
+    margin-left: 21px;
+  }
+  .vision {
+    width: 347px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 32px;
+  }
+  .mission {
+    width: 347px;
+    display: flex;
+    margin: auto;
   }
   .Text {
     font-family: Roboto;
