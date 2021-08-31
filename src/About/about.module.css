@@ -332,6 +332,7 @@
     display: none;
   }
   .futurePrespective {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     background-color: rgba(242, 242, 242, 0.65);
@@ -350,6 +351,9 @@
     margin-left: 21px;
   }
   .vision {
+    display: unset;
+    background-color: violet;
+
     width: 347px;
     display: flex;
     margin: auto;
@@ -382,6 +386,7 @@
     justify-content: center;
     padding: 48px 0px;
     width: 100vw;
+    height: unset;
   }
   .cultureTitle {
     margin-bottom: 34px;
@@ -394,10 +399,12 @@
     margin: auto;
     margin-bottom: 32px;
     height: unset;
-    min-width: 470px;
+    width: 342px;
   }
   .cultureParagraph1 {
     margin-bottom: 32px;
+    width: 342px;
+    height: unset;
   }
   .cultureText {
     font-family: Roboto;
@@ -405,7 +412,7 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 140.69%;
-
+    height: unset;
     text-align: justify;
   }
   .cultureVideoPic {
