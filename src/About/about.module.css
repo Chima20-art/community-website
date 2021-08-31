@@ -102,14 +102,19 @@
   height: 10px;
 }
 .vision {
+  width: 347px;
+  display: flex;
+  margin: 30px 0px;
+}
+.mission {
+  width: 347px;
   display: flex;
   margin: 30px 0px;
 }
 .visionText {
-  width: 438px;
-  height: 112px;
+  height: unset;
   text-align: start;
-  margin-left: 20px;
+  margin-left: unset;
 }
 .visionTitle {
   font-family: Roboto;
@@ -202,7 +207,6 @@
 .mapDiv {
   display: flex;
   margin-top: 38px;
-  justify-content: space-around;
 }
 .smallDiv {
   display: flex;
@@ -404,19 +408,27 @@
     flex-direction: column;
     margin-top: 38px;
     justify-content: space-around;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   .map {
     background-color: blue;
+    margin: auto;
     width: 342px;
     height: 239.22px;
+    margin-bottom: 28px;
   }
   .smallDiv {
+    margin: auto;
+    background-color: brown;
     display: flex;
   }
   .smallLogo {
-    margin: auto;
+    background-color: burlywood;
+    margin: unset;
   }
   .descriptionLogo {
+    background-color: cadetblue;
     margin-left: 37px;
     height: 100%;
   }
@@ -435,13 +447,14 @@
     text-align: start;
   }
   .textLogo {
+    background-color: chartreuse;
+    width: 255px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    width: 354px;
     color: #30444e;
-    text-align: center;
+    text-align: start;
   }
 }
