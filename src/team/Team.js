@@ -165,7 +165,7 @@ export default function Team() {
           <img src="/Line 2.png" className={styles.vector} />
         </div>
         <div className={styles.cardItems}>
-          <div className={styles.cardItem} style={{ marginRight: "25px" }}>
+          <div className={styles.cardItemRightMargin}>
             <div>
               <img src="/circle-box-11.png" className={styles.picture} />
             </div>
@@ -177,10 +177,7 @@ export default function Team() {
               <img className={styles.instagram} src="/Instagram.png" />
             </div>
           </div>
-          <div
-            className={styles.cardItem}
-            style={{ marginLeft: "25px", marginRight: "25px" }}
-          >
+          <div className={styles.cardItemMarginBothSides}>
             <div>
               <img src="/circle-box-12.png" className={styles.picture} />
             </div>
@@ -192,10 +189,7 @@ export default function Team() {
               <img className={styles.instagram} src="/Instagram.png" />
             </div>
           </div>
-          <div
-            className={styles.cardItem}
-            style={{ marginLeft: "25px", marginRight: "25px" }}
-          >
+          <div className={styles.cardItemMarginBothSides}>
             <div>
               <img src="/circle-box-13.png" className={styles.picture} />
             </div>
@@ -207,7 +201,7 @@ export default function Team() {
               <img className={styles.instagram} src="/Instagram.png" />
             </div>
           </div>
-          <div className={styles.cardItem} style={{ marginLeft: "25px" }}>
+          <div className={styles.cardItemLeftMargin}>
             <div>
               <img src="/circle-box-14.png" className={styles.picture} />
             </div>
@@ -222,7 +216,7 @@ export default function Team() {
         </div>
 
         <div className={styles.cardItems}>
-          <div className={styles.cardItem} style={{ marginRight: "25px" }}>
+          <div className={styles.cardItemRightMargin}>
             <div>
               <img src="/circle-box-15.png" className={styles.picture} />
             </div>
@@ -234,10 +228,7 @@ export default function Team() {
               <img className={styles.instagram} src="/Instagram.png" />
             </div>
           </div>
-          <div
-            className={styles.cardItem}
-            style={{ marginLeft: "25px", marginRight: "25px" }}
-          >
+          <div className={styles.cardItemMarginBothSides}>
             <div>
               <img src="/circle-box-16.png" className={styles.picture} />
             </div>
@@ -249,10 +240,7 @@ export default function Team() {
               <img className={styles.instagram} src="/Instagram.png" />
             </div>
           </div>
-          <div
-            className={styles.cardItem}
-            style={{ marginLeft: "25px", marginRight: "25px" }}
-          >
+          <div className={styles.cardItemMarginBothSides}>
             <div>
               <img src="/circle-box-17.png" className={styles.picture} />
             </div>
@@ -264,7 +252,7 @@ export default function Team() {
               <img className={styles.instagram} src="/Instagram.png" />
             </div>
           </div>
-          <div className={styles.cardItem} style={{ marginLeft: "25px" }}>
+          <div className={styles.cardItemLeftMargin}>
             <div>
               <img src="/circle-box-18.png" className={styles.picture} />
             </div>
