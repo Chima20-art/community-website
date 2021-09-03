@@ -95,6 +95,22 @@
   padding-bottom: 53px;
   margin-bottom: 50px;
 }
+.cardItemManajemen1 {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 230px;
+  height: 284px;
+  margin-right: 100px;
+}
+.cardItemManajemen2 {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 230px;
+  height: 284px;
+  margin-left: 100px;
+}
 .consultantDiv {
   background-color: #f7f7f7;
   padding-top: 37px;
@@ -159,7 +175,44 @@
     height: 17px;
     left: 0px;
     top: 505px;
-
     background: #ee4248;
+  }
+  .managementDiv {
+  }
+  .cardItemManajemen1 {
+    background: #ffffff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 230px;
+    height: 284px;
+    margin-right: unset;
+    margin: 32px;
+  }
+  .cardItemManajemen2 {
+    background: #ffffff;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 230px;
+    height: 284px;
+    margin-left: unset;
+  }
+  .cardItems1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .manajmenTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140.69%;
+    color: #263238;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 38px;
   }
 }

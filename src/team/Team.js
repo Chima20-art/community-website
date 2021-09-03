@@ -21,7 +21,7 @@ export default function Team() {
           <img src="/Line 1.png" className={styles.vector} />
         </div>
         <div className={styles.cardItems1}>
-          <div className={styles.cardItem} style={{ marginRight: "100px" }}>
+          <div className={styles.cardItemManajemen1}>
             <div>
               <img src="/circle-box.png" className={styles.picture} />
             </div>
@@ -33,7 +33,7 @@ export default function Team() {
               <img className={styles.instagram} src="/Instagram.png" />
             </div>
           </div>
-          <div className={styles.cardItem} style={{ marginLeft: "100px" }}>
+          <div className={styles.cardItemManajemen2}>
             <div>
               <img src="/circle-box-2.png" className={styles.picture} />
             </div>
