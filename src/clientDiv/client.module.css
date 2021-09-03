@@ -105,3 +105,31 @@
   margin: 0px 76px;
   margin-bottom: 57px;
 }
+@media (max-width: 1000px) {
+  .mainDiv {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .redBorder {
+    width: 100vw;
+    height: 17px;
+    left: 0px;
+    top: 505px;
+    background: #ee4248;
+  }
+  .title {
+    margin: auto;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 140.69%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #30444e;
+  }
+}
