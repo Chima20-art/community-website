@@ -168,4 +168,8 @@
     width: unset;
     color: #263238;
   }
+  .testimonial {
+    margin: 25px 0px;
+    margin-bottom: 57px;
+  }
 }
