@@ -121,10 +121,7 @@ export default function Team() {
               <img className={styles.instagram} src="/Instagram.png" />
             </div>
           </div>
-          <div
-            className={styles.cardItem}
-            style={{ marginLeft: "25px", marginRight: "25px" }}
-          >
+          <div className={styles.cardItemMarginBothSides}>
             <div>
               <img src="/circle-box-8.png" className={styles.picture} />
             </div>
@@ -136,10 +133,7 @@ export default function Team() {
               <img className={styles.instagram} src="/Instagram.png" />
             </div>
           </div>
-          <div
-            className={styles.cardItem}
-            style={{ marginLeft: "25px", marginRight: "25px" }}
-          >
+          <div className={styles.cardItemMarginBothSides}>
             <div>
               <img src="/circle-box-9.png" className={styles.picture} />
             </div>
@@ -151,7 +145,7 @@ export default function Team() {
               <img className={styles.instagram} src="/Instagram.png" />
             </div>
           </div>
-          <div className={styles.cardItem} style={{ marginLeft: "25px" }}>
+          <div className={styles.cardItemLeftMargin}>
             <div>
               <img src="/circle-box-10.png" className={styles.picture} />
             </div>
