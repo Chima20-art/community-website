@@ -11,7 +11,7 @@ export default function Team() {
           <br /> <b>together we make it reality</b>
         </div>
         <div className={styles.image}>
-          <img src="/cuate.png" />
+          <img src="/cuate.png" className={styles.image1} />
         </div>
         <div className={styles.redBorder} />
       </div>

@@ -128,3 +128,38 @@
   padding-bottom: 53px;
   margin: 50px;
 }
+@media (max-width: 1000px) {
+  .container {
+    width: 100vw;
+  }
+  .title {
+    margin: auto;
+    margin-top: 62px;
+    flex: 1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 140.69%;
+    width: 311px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: #30444e;
+  }
+
+  .image1 {
+    width: 260.32px;
+    height: 146px;
+  }
+  .redBorder {
+    width: 100vw;
+    height: 17px;
+    left: 0px;
+    top: 505px;
+
+    background: #ee4248;
+  }
+}

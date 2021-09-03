@@ -424,7 +424,8 @@
     padding: 34px 0px;
   }
   .contactTitle {
-    margin-left: 25px;
+    margin: auto;
+    width: 342px;
     display: flex;
     flex-direction: column;
     font-family: Roboto;
