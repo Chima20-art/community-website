@@ -89,10 +89,7 @@ export default function Team() {
               <img className={styles.instagram} src="/Instagram.png" />
             </div>
           </div>
-          <div
-            className={styles.cardItemLeftMargin}
-            style={{ marginLeft: "25px" }}
-          >
+          <div className={styles.cardItemLeftMargin}>
             <div>
               <img src="/circle-box-6.png" className={styles.picture} />
             </div>
@@ -112,7 +109,7 @@ export default function Team() {
           <img src="/Line 2.png" className={styles.vector} />
         </div>
         <div className={styles.cardItems}>
-          <div className={styles.cardItem} style={{ marginRight: "25px" }}>
+          <div className={styles.cardItemRightMargin}>
             <div>
               <img src="/circle-box-7.png" className={styles.picture} />
             </div>
