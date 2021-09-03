@@ -161,7 +161,7 @@ export default function Team() {
       </div>
       <div className={styles.javaDiv}>
         <div className={styles.consultantTitle}>
-          Java Specialist
+          Mobile Specialist
           <img src="/Line 2.png" className={styles.vector} />
         </div>
         <div className={styles.cardItems}>
