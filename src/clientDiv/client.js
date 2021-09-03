@@ -11,7 +11,7 @@ export default function Client() {
           <b>Deliver IT around the globe</b>
         </div>
         <div className={styles.image}>
-          <img src="/pana2.png" />
+          <img src="/pana2.png" className={styles.panaImage} />
         </div>
       </div>
       <div className={styles.redBorder} />
