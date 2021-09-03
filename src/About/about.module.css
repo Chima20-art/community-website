@@ -352,7 +352,6 @@
   }
   .vision {
     display: unset;
-    background-color: violet;
 
     width: 347px;
     display: flex;
@@ -420,7 +419,6 @@
     height: 223px;
   }
   .mapDiv {
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     margin-top: 38px;
@@ -429,7 +427,6 @@
     margin-right: 25px;
   }
   .map {
-    background-color: blue;
     margin: auto;
     width: 342px;
     height: 239.22px;
@@ -437,15 +434,12 @@
   }
   .smallDiv {
     margin: auto;
-    background-color: brown;
     display: flex;
   }
   .smallLogo {
-    background-color: burlywood;
     margin: unset;
   }
   .descriptionLogo {
-    background-color: cadetblue;
     margin-left: 37px;
     height: 100%;
   }
@@ -464,7 +458,6 @@
     text-align: start;
   }
   .textLogo {
-    background-color: chartreuse;
     width: 255px;
     font-family: Roboto;
     font-style: normal;
