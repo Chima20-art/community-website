@@ -23,7 +23,7 @@ export default function Client() {
       </div>
       <div className={styles.clientCard}>
         <div className={styles.bankLogo}>
-          <img src="/image 17.png" className={styles.bankLogo} />
+          <img src="/image 17.png" className={styles.bankLogoImage} />
         </div>
         <div className={styles.description}>
           <div className={styles.cardTitle}>Bank Tabungan Negara</div>
@@ -50,7 +50,7 @@ export default function Client() {
       </div>
       <div className={styles.bprCard}>
         <div className={styles.bankLogo}>
-          <img src="/image 16.png" className={styles.bankLogo} />
+          <img src="/image 16.png" className={styles.bankLogoImage} />
         </div>
         <div className={styles.description}>
           <div className={styles.cardTitle}>Bank Tabungan Negara</div>
@@ -99,7 +99,7 @@ export default function Client() {
 
       <div className={styles.clientCard}>
         <div className={styles.bankLogo}>
-          <img src="/image 18.png" className={styles.bankLogo} />
+          <img src="/image 18.png" className={styles.bankLogoImage} />
         </div>
         <div className={styles.description}>
           <div className={styles.cardTitle}>Bank BPR KS</div>

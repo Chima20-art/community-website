@@ -93,7 +93,6 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 160%;
-  /* or 29px */
   width: 570px;
 
   color: #263238;
@@ -131,5 +130,39 @@
     flex-direction: column;
     text-align: center;
     color: #30444e;
+  }
+  .clientCard {
+    width: 100vw;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  .bankLogoImage {
+    width: 332px;
+    height: 114.15px;
+  }
+  .description {
+    flex: 1;
+    text-align: left;
+    justify-content: left;
+    margin: auto;
+  }
+  .bprCard {
+    padding: 25px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .text {
+    padding-bottom: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    width: unset;
+
+    color: #263238;
   }
 }
