@@ -60,6 +60,31 @@
   width: 230px;
   height: 284px;
 }
+.cardItemRightMargin {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 230px;
+  height: 284px;
+  margin-right: 25px;
+}
+.cardItemMarginBothSides {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 230px;
+  height: 284px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.cardItemLeftMargin {
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 230px;
+  height: 284px;
+  margin-left: 25px;
+}
 .cardTitle {
   font-family: Roboto;
   font-style: normal;
