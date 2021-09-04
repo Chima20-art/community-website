@@ -131,4 +131,21 @@
     color: #455a64;
     margin-bottom: 0px;
   }
+  .partnersCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+  .partnersCard {
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .redCircle {
+    display: none;
+  }
+  .sideCircle {
+    display: none;
+  }
 }

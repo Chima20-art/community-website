@@ -28,7 +28,7 @@ export default function Partner() {
           <img src="/Line 1.png" className={styles.vector} />
         </div>
         <div className={styles.partnersCards}>
-          <img src="/Side Shape.svg" />
+          <img src="/Side Shape.svg" className={styles.redCircle} />
           <div className={styles.partnersCard}>
             <img src="/image 19.png" className={styles.cardLogo} />
             <div className={styles.cardDescription}>
@@ -56,7 +56,7 @@ export default function Partner() {
               bibendum hendrerit pulvinar.
             </div>
           </div>
-          <img src="/Side Shape Circle.svg" />
+          <img src="/Side Shape Circle.svg" className={styles.sideCircle} />
         </div>
       </div>
     </div>
