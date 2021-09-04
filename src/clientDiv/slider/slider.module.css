@@ -33,7 +33,6 @@
 }
 @media (max-width: 1000px) {
   .section {
-    background-color: turquoise;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -61,7 +60,6 @@
     width: 334px;
   }
   .description {
-    background-color: thistle;
     width: 334px;
     margin: auto;
   }

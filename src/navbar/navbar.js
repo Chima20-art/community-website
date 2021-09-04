@@ -157,8 +157,14 @@ export default function Navbar(props) {
               <div>Client</div>
             </div>
           </Link>
-          <div className={styles.menuItem}>Partner</div>
-
+          <Link to="/partner">
+            <div
+              className={styles.menuItem}
+              onClick={() => setShowMobileMenu(false)}
+            >
+              Partner
+            </div>
+          </Link>
           <div className={styles.menuItem}>
             <div className={styles.contactItemMenu}>
               <div>
