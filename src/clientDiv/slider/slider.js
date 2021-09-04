@@ -9,16 +9,18 @@ const SimpleSlider = () => (
       <img src="/Mark.png" className={styles.sectionImage} />
       <div className={styles.description}>
         <img src="/quote icon.png" className={styles.quote} />
-        <p className={styles.paragraph}>
-          Est tation latine aliquip id, mea ad tale illud definitiones.
-          Periculis omittantur necessitatibus eum ad, pro eripuit minimum
-          comprehensam ne, usu cu stet prompta reformidans.
-        </p>
-        <p className={styles.signature}>Connie Robertson at Google</p>
+        <div className={styles.description}>
+          <p className={styles.paragraph}>
+            Est tation latine aliquip id, mea ad tale illud definitiones.
+            Periculis omittantur necessitatibus eum ad, pro eripuit minimum
+            comprehensam ne, usu cu stet prompta reformidans.
+          </p>
+          <p className={styles.signature}>Connie Robertson at Google</p>
+        </div>
       </div>
     </div>
     <div className={styles.section}>
-      <img src="/Mark.png" />
+      <img src="/Mark.png" className={styles.sectionImage} />
       <div className={styles.description}>
         <img src="/quote icon.png" className={styles.quote} />
         <p className={styles.paragraph}>
@@ -30,7 +32,7 @@ const SimpleSlider = () => (
       </div>
     </div>
     <div className={styles.section}>
-      <img src="/Mark.png" />
+      <img src="/Mark.png" className={styles.sectionImage} />
       <div className={styles.description}>
         <img src="/quote icon.png" className={styles.quote} />
         <p className={styles.paragraph}>

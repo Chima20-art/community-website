@@ -5,7 +5,6 @@
 }
 .description {
   width: 540px;
-
   text-align: left;
 }
 .quote {
@@ -43,5 +42,27 @@
     object-fit: contain;
     width: 313px;
     height: 218px;
+    margin: auto;
+  }
+  .quote {
+    margin-top: 19px;
+    margin-bottom: 19px;
+    width: 33px;
+    height: 33px;
+  }
+  .paragraph {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    color: #373f41;
+    width: 334px;
+  }
+  .description {
+    background-color: thistle;
+    width: 334px;
+    margin: auto;
   }
 }
